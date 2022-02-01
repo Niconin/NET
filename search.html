@@ -1,18 +1,14 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html lang="ja">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="sample.css">
   <title>net教会</title>
 </head>
-<body> <br> <br> <br> <br> <br> <br>
-  <div> <img src="net.png" style="display: block; margin-left: auto; margin-right: auto;"> </div> <br> <br>
-  <script async src="https://cse.google.com/cse.js?cx=b0c325d2f88b44e55"></script>
-  <div class="gcse-search"></div><br><br><br><br><br><br>
-  <h5>現在の時間
-    <body> <span id="viewTime"></span>
-      <script type="text/javascript">
-        timer = setInterval('clock()',1000); //時刻の更新
+<body>
+  <div style="text-align: center"> <span id="viewTime"></span>
+    <script type="text/javascript">
+      timer = setInterval('clock()',1000); //時刻の更新
         
         function clock() {
         	document.getElementById("viewTime").innerHTML = getNow();
@@ -34,6 +30,10 @@
         	var s = year + "年" + mon + "月" + day + "日 (" + youbi[you] + ")"+ hour + "時" + min + "分" + sec + "秒" ;
         	return s;
         }
-      </script>
-    </body>
+    </script>
+    <hr><br>
+    <div> <img src="net.png" style="display: block; margin-left: auto; margin-right: auto;"> </div> <br> <br>
+    <script async src="https://cse.google.com/cse.js?cx=b0c325d2f88b44e55"></script>
+    <div class="gcse-search"></div>
+</body>
 </html>
