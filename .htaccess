@@ -1,9 +1,0 @@
-RewriteEngine on
-RewriteCond %{THE_REQUEST} ^.*/index.html
-RewriteCond %{THE_REQUEST} ^.*/akeome.html
-RewriteCond %{THE_REQUEST} ^.*/donald.html
-RewriteCond %{THE_REQUEST} ^.*/donaldcojp.html
-RewriteCond %{THE_REQUEST} ^.*/dora.html
-RewriteCond %{THE_REQUEST} ^.*/oum.html
-RewriteCond %{THE_REQUEST} ^.*/uirusu.html
-RewriteRule ^(.*)index.html$ https://net.nicoworld.net/$1 [R=301,L]
